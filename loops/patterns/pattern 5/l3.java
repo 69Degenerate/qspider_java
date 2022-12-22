@@ -3,11 +3,7 @@ public class l3 {
         int a=5,b=a;
         for (int i = 1; i <= a; i++) {
             for (int j = 1; j <= a; j++) {
-                if (i<=j) {
-                    System.out.print(j);
-                } else {
-                    System.out.print(" ");
-                }
+                System.out.print(i<=j?j:" ");
             }
             System.out.println();
         }

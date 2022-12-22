@@ -5,8 +5,11 @@ class l1{
         int n=5;
         for (int i = 1; i <= n; i++) {
             int a=i;
-            for (int j = 1; j <= n; j++) {
-                System.out.print(a++);
+            for (int j = 1; j <= n; j++,a++) {
+                if (a>n) {
+                    a=1;
+                }
+                System.out.print(a);
             }
             System.out.println();
         }
