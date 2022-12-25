@@ -1,5 +1,8 @@
+package methods;
+
 public class demo {
-    int sta add(int a,int x) {
+    
+    static int add(int a,int x) {
      return a+x;
     }
    public static void main(String[] args) {
