@@ -1,3 +1,5 @@
+package loops.while_loop;
+
 import java.util.*;
 public class strongno {
     public static void main(String[] args) {
@@ -11,8 +13,8 @@ public class strongno {
             while(n != 0)
             {
             int i = 1;
-            int fact_n = 1;
-            int lastdig = n % 10;
+            fact_n = 1;
+            lastdig = n % 10;
             while(i <= lastdig)
             {
             fact_n = fact_n * i;

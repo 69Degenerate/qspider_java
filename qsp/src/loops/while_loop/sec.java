@@ -1,3 +1,5 @@
+package loops.while_loop;
+
 import java.util.*;
 class sec{
  public static void main(String[] args) {

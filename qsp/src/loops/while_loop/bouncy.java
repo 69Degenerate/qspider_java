@@ -32,9 +32,4 @@ public class bouncy {
             }
         }
     }
-
-    @Override
-    public String toString() {
-        return "bouncy []";
-    }
 }
