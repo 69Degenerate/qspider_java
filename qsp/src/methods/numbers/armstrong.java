@@ -2,7 +2,7 @@ package methods.numbers;
 import java.util.*;
 public class armstrong {
     static int power(int n,int p){
-        int nn=1,l=0,sum=0;
+        int nn=1;
         while (p!=0) {
             nn*=n;
             p--;    
