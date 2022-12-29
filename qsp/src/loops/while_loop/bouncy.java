@@ -1,4 +1,6 @@
-import java.util.*;public class bouncy {
+package loops.while_loop;
+import java.util.*;
+public class bouncy {
     public static void main(String[] args) {
         Scanner sc=new Scanner (System.in);
         while(true){ 
@@ -29,5 +31,10 @@ import java.util.*;public class bouncy {
                 System.out.println("it's a bouncy number \n\n");
             }
         }
+    }
+
+    @Override
+    public String toString() {
+        return "bouncy []";
     }
 }
