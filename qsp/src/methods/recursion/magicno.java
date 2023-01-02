@@ -1,5 +1,5 @@
 package methods.recursion;
-import java.util.*;;
+import java.util.*;
 public class magicno {
     public static void main(String[]args)
 	{
@@ -12,13 +12,13 @@ public class magicno {
 public static int isMagic(int a,int b){
     int num=0;
     while (a>0) {
-        b=b+a%10;
+        b+=a%10;
         a/=10;
     }
     if (b>9) {
         return isMagic(b, 0);
     }
-    num = b==1?1:0;
-    return num;
+    
+    return num = b==1?1:0;
 }
 }
