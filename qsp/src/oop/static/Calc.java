@@ -1,6 +1,6 @@
 // package oop;
 import java.util.*;
-public class Calc {
+class Calc {
     static Scanner sc=new Scanner (System.in);
     public static void main(String[] args) {
         while (true) {
