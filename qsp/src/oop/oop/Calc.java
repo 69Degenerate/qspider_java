@@ -1,4 +1,4 @@
-// package oop;
+package oop;
 import java.util.*;
 public class Calc {
     static Scanner sc=new Scanner (System.in);
